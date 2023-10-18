@@ -1,0 +1,26 @@
+table, th, td {
+    border:1px solid black;
+}
+table{
+    width:70%;
+    position: absolute;
+    top:24%;
+    left:10%;
+
+}
+#add-record{
+    position:absolute;
+    right:3%;
+    Top:15%;
+}
+
+h5{
+    position:absolute;
+    left:3%;
+    Top:15%;
+}
+
+
+
+
+

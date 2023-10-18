@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/add-student.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <title>Document</title>
+</head>
+<body>
+    <%-include("./partials/header.ejs") %>
+    <%-include("./partials/logout.ejs") %>
+    <%-include("./partials/back.ejs") %>
+    
+    <h3 form-heading>Add New Result</h3>
+
+    <div class="form-container">
+        <form method="post" action="/add-student">
+            <div class="form-group">
+                <label>Roll no</label>
+                <input type="text" class="form-control" placeholder="Enter Roll no." name="rollno" required>
+            </div>
+            
+            <div class="form-group">
+                <label>Name</label>
+                <input type="text" class="form-control" placeholder="Enter name" name="name" required>
+            </div>
+
+            <div class="form-group">
+                <label >Date of birth</label>
+                <input type="date" class="form-control" placeholder="Enter Date of birth" name="dob" required>
+            </div>
+            
+            <div class="form-group">
+            <label>Score</label>
+            <input type="number" class="form-control" placeholder="Enter score" name="score" required>
+            </div>
+            <br>
+            <button id="submit-button" type="submit" class="btn btn-primary">Submit</button>
+        
+            <button type="reset" class="btn btn-danger">Clear</button>
+        </form>
+</div>
+</body>
+</html>
+
+
+
+
+

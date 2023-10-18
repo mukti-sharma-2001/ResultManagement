@@ -1,0 +1,14 @@
+div.container-login{
+    position: absolute;
+    left: 42%;
+    top: 40%;
+}
+.login-heading{
+    text-align: center;
+}
+#login-heading{
+    text-align: center;
+}
+#student{
+    margin-right: 22px;
+}

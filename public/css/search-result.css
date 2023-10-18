@@ -1,0 +1,15 @@
+#submit-button{
+    margin-right: 22px;
+}
+.form-container{
+    width: 50%;
+    position: absolute;
+    top: 30%;
+    left: 10%;
+}
+
+h3 {
+    position: absolute;
+    top: 18%;
+    left:8%;
+}
